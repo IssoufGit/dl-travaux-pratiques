@@ -1,0 +1,6 @@
+# Ignore any folder named "data" anywhere in the repo
+data/
+
+# Ignore jupyter-notebook artefacts
+.DS_Store
+.ipynb_checkpoints/
