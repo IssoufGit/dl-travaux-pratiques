@@ -4,3 +4,8 @@ data/
 # Ignore jupyter-notebook artefacts
 .DS_Store
 .ipynb_checkpoints/
+
+# Ignore python artefacts
+__pycache__/
+*.pyc
+.venv
