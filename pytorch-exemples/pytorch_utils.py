@@ -1,4 +1,4 @@
-"""Fonctions utilitaires partagées pour les travaux pratiques de Deep Learning.
+"""Fonctions utilitaires.
 
 Ce module regroupe les fonctions réutilisées d'un notebook à l'autre :
 entraînement, évaluation, visualisation des résultats, et un Dataset

@@ -9,3 +9,19 @@ data/
 __pycache__/
 *.pyc
 .venv
+
+# Ignore exported models
+*.onnx
+*.onnx.data
+
+# Ignore C++ build artefacts
+build/
+
+# Ignore ONNX Runtime si l'archive est décompressée dans le dépôt
+onnxruntime-linux-*/
+onnxruntime-osx-*/
+onnxruntime-win-*/
+*.tgz
+
+# Réglages d'éditeur propres à chaque poste (voir example_cpp_onnx/README.md)
+.vscode/
